@@ -80,6 +80,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DM.Data.ETL\DM.Data.ETL.csproj">
+      <Project>{2cbd01c3-5494-44bf-9e44-5a198b509fd8}</Project>
+      <Name>DM.Data.ETL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DM.DataValidator.Common\DM.DataValidator.Common.csproj">
       <Project>{0b493f64-2c72-40a4-a4b6-0de80afa5468}</Project>
       <Name>DM.DataValidator.Common</Name>

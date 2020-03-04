@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DM.DataValidator", "DM.Data
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DM.DataValidator.Common", "DM.DataValidator.Common\DM.DataValidator.Common.csproj", "{0B493F64-2C72-40A4-A4B6-0DE80AFA5468}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DM.Data.ETL", "DM.Data.ETL\DM.Data.ETL.csproj", "{2CBD01C3-5494-44BF-9E44-5A198B509FD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{0B493F64-2C72-40A4-A4B6-0DE80AFA5468}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B493F64-2C72-40A4-A4B6-0DE80AFA5468}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B493F64-2C72-40A4-A4B6-0DE80AFA5468}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CBD01C3-5494-44BF-9E44-5A198B509FD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CBD01C3-5494-44BF-9E44-5A198B509FD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CBD01C3-5494-44BF-9E44-5A198B509FD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CBD01C3-5494-44BF-9E44-5A198B509FD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

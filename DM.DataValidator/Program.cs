@@ -1,4 +1,5 @@
-﻿using DM.DataValidator.Common.Helper;
+﻿using DM.Data.ETL;
+using DM.DataValidator.Common.Helper;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -21,10 +22,15 @@ namespace DM.DataValidator
             string file = args[0];
             string validatorType = args[1];
 
-            Processor processor = new Processor(file, validatorType);
-            processor.LoadData();
-            processor.Validate();
-            processor.SaveResult();
+            ETLProcessor eTLProcessor = new ETLProcessor(file);
+            eTLProcessor.Extract();
+            eTLProcessor.Transform();
+            eTLProcessor.Load();
+
+            //Processor processor = new Processor(file, validatorType);
+            //processor.LoadData();
+            //processor.Validate();
+            //processor.SaveResult();
         }
     }
 }
